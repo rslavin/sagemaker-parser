@@ -32,7 +32,7 @@ def get_vectors(scenarios):
     """
     Produces a list of dictionaries with keys 'worker' and 'scenario'. Each worker is a list of dictionaries with keys
     'id' and 'annotations' where id is the worker id and annotations is a list of annotations. Each annotation is a
-    dictionary of labels pointing to arrays of 0s and 1s corresponding to the characters in the scenario.
+    dictionary of labels pointing to lists of 0s and 1s corresponding to the characters in the scenario.
     :param scenarios:
     :return:
     """
