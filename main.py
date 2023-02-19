@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from scenario import Scenario
 from sys import argv
 
