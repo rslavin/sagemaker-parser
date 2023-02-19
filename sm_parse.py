@@ -42,9 +42,13 @@ def get_vectors(scenarios):
     return vectors
 
 
-if __name__ == '__main__':
+def example():
     scenarios = parse_scenarios()
     # print_scenarios(scenarios)
     vectors = get_vectors(scenarios)
     print(vectors[0]['scenario'])
     print(vectors[0]['workers'][0]['annotations']['UC-System'])
+
+
+if __name__ == '__main__':
+    example()
