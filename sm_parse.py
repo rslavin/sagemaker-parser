@@ -3,16 +3,27 @@
 from scenario import Scenario
 from sys import argv
 
-
-def parse_scenarios():
+def parse_file(file_path):
     """
-    Parses scenarios from json string. Expects one string per file where each argument is a path to a file.
-    :return:
+    Parses a scenario from json string in one file.
+    :param file_path: path to file
+    :return: Scenario object
+    """
+    try:
+        with open(file_path) as f:
+            return Scenario(f.read())
+    except FileNotFoundError:
+        print(f'ERROR: File not found: {file_path}')
+    return None
+
+def parse_args():
+    """
+    Parses scenarios from files given as command line arguments. Expects one string per file.
+    :return: list of Scenarios
     """
     scenarios = list()
     for arg in argv[1:]:
-        with open(arg) as f:
-            scenarios.append(Scenario(f.read()))
+        scenarios.append(parse_file(arg))
     return scenarios
 
 
@@ -43,7 +54,7 @@ def get_vectors(scenarios):
 
 
 def example():
-    scenarios = parse_scenarios()
+    scenarios = parse_args()
     # print_scenarios(scenarios)
     vectors = get_vectors(scenarios)
     print(vectors[0]['scenario'])
