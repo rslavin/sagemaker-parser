@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
+import statsmodels as statsmodels
 
 from scenario import Scenario
 from sys import argv
+import numpy as np
+from statsmodels.stats import inter_rater as irr
 
 def parse_file(file_path):
     """
@@ -53,12 +56,67 @@ def get_vectors(scenarios):
     return vectors
 
 
+def calc_kappa(table):
+    """
+
+    :param table: a table with three rows and n columns. Each row is associated with one worker.
+    n is the number of characters in a scenario.
+    :return: fleiss kappa, inter-rater agreement between three workers
+    https://stackoverflow.com/questions/56481245/inter-rater-reliability-calculation-for-multi-raters-data
+    """
+    tableT = np.array(table).transpose()
+    return irr.fleiss_kappa(irr.aggregate_raters(tableT)[0], method='fleiss')
+
+def prep_kappa(vectors):
+    uc_name_kappa = 0
+    uc_goal_kappa = 0
+    uc_user_kappa = 0
+    uc_system_kappa = 0
+    uc_externalEntity_kappa = 0
+    uc_steps_kappa = 0
+    length = len(vectors)
+
+    for i in range(length):
+        uc_name_ratings = []
+        uc_goal_ratings = []
+        uc_user_ratings = []
+        uc_system_ratings = []
+        uc_externalEntity_ratings = []
+        uc_steps_ratings = []
+
+        uc_name_ratings.append(vectors[i]['workers'][0]['annotations']['UC-Name'])
+        uc_name_ratings.append(vectors[i]['workers'][1]['annotations']['UC-Name'])
+        uc_name_ratings.append(vectors[i]['workers'][2]['annotations']['UC-Name'])
+        uc_name_kappa += calc_kappa(uc_name_ratings)
+
+        uc_goal_ratings.append(vectors[i]['workers'][0]['annotations']['UC-Goal'])
+        uc_goal_ratings.append(vectors[i]['workers'][1]['annotations']['UC-Goal'])
+        uc_goal_ratings.append(vectors[i]['workers'][2]['annotations']['UC-Goal'])
+        uc_goal_kappa += calc_kappa(uc_goal_ratings)
+
+        uc_user_ratings.append(vectors[i]['workers'][0]['annotations']['UC-User'])
+        uc_user_ratings.append(vectors[i]['workers'][1]['annotations']['UC-User'])
+        uc_user_ratings.append(vectors[i]['workers'][2]['annotations']['UC-User'])
+        uc_user_kappa += calc_kappa(uc_user_ratings)
+
+        uc_system_ratings.append(vectors[i]['workers'][0]['annotations']['UC-System'])
+        uc_system_ratings.append(vectors[i]['workers'][1]['annotations']['UC-System'])
+        uc_system_ratings.append(vectors[i]['workers'][2]['annotations']['UC-System'])
+        uc_system_kappa += calc_kappa(uc_system_ratings)
+
+        uc_steps_ratings.append(vectors[i]['workers'][0]['annotations']['UC-step'] or vectors[i]['workers'][0]['annotations']['UC-DataPractice'])
+        uc_steps_ratings.append(vectors[i]['workers'][1]['annotations']['UC-step'] or vectors[i]['workers'][1]['annotations']['UC-DataPractice'])
+        uc_steps_ratings.append(vectors[i]['workers'][2]['annotations']['UC-step'] or vectors[i]['workers'][2]['annotations']['UC-DataPractice'])
+        uc_steps_kappa += calc_kappa(uc_steps_ratings)
+
+    return [uc_name_kappa/length, uc_goal_kappa/length, uc_user_kappa/length, uc_system_kappa/length, uc_steps_kappa/length];
+
+
 def example():
     scenarios = parse_args()
     # print_scenarios(scenarios)
     vectors = get_vectors(scenarios)
-    print(vectors[0]['scenario'])
-    print(vectors[0]['workers'][0]['annotations']['UC-System'])
+    print(prep_kappa(vectors))
 
 
 if __name__ == '__main__':
