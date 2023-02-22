@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import statsmodels as statsmodels
 
 from scenario import Scenario
 from sys import argv
@@ -72,41 +71,20 @@ def prep_kappa(vectors):
     uc_goal_kappa = 0
     uc_user_kappa = 0
     uc_system_kappa = 0
-    uc_externalEntity_kappa = 0
     uc_steps_kappa = 0
     length = len(vectors)
 
     for i in range(length):
-        uc_name_ratings = []
-        uc_goal_ratings = []
-        uc_user_ratings = []
-        uc_system_ratings = []
-        uc_externalEntity_ratings = []
-        uc_steps_ratings = []
+        uc_name_ratings = [v['workers'][j]['annotations']['UC-Name'] for v in vectors for j in range(len(v['workers']))]
+        uc_goal_ratings = [v['workers'][j]['annotations']['UC-Goal'] for v in vectors for j in range(len(v['workers']))]
+        uc_user_ratings = [v['workers'][j]['annotations']['UC-User'] for v in vectors for j in range(len(v['workers']))]
+        uc_system_ratings = [v['workers'][j]['annotations']['UC-System'] for v in vectors for j in range(len(v['workers']))]
+        uc_steps_ratings = [v['workers'][j]['annotations']['UC-step'] or v['workers'][j]['annotations']['UC-DataPractice'] for v in vectors for j in range(len(v['workers']))]
 
-        uc_name_ratings.append(vectors[i]['workers'][0]['annotations']['UC-Name'])
-        uc_name_ratings.append(vectors[i]['workers'][1]['annotations']['UC-Name'])
-        uc_name_ratings.append(vectors[i]['workers'][2]['annotations']['UC-Name'])
         uc_name_kappa += calc_kappa(uc_name_ratings)
-
-        uc_goal_ratings.append(vectors[i]['workers'][0]['annotations']['UC-Goal'])
-        uc_goal_ratings.append(vectors[i]['workers'][1]['annotations']['UC-Goal'])
-        uc_goal_ratings.append(vectors[i]['workers'][2]['annotations']['UC-Goal'])
         uc_goal_kappa += calc_kappa(uc_goal_ratings)
-
-        uc_user_ratings.append(vectors[i]['workers'][0]['annotations']['UC-User'])
-        uc_user_ratings.append(vectors[i]['workers'][1]['annotations']['UC-User'])
-        uc_user_ratings.append(vectors[i]['workers'][2]['annotations']['UC-User'])
         uc_user_kappa += calc_kappa(uc_user_ratings)
-
-        uc_system_ratings.append(vectors[i]['workers'][0]['annotations']['UC-System'])
-        uc_system_ratings.append(vectors[i]['workers'][1]['annotations']['UC-System'])
-        uc_system_ratings.append(vectors[i]['workers'][2]['annotations']['UC-System'])
         uc_system_kappa += calc_kappa(uc_system_ratings)
-
-        uc_steps_ratings.append(vectors[i]['workers'][0]['annotations']['UC-step'] or vectors[i]['workers'][0]['annotations']['UC-DataPractice'])
-        uc_steps_ratings.append(vectors[i]['workers'][1]['annotations']['UC-step'] or vectors[i]['workers'][1]['annotations']['UC-DataPractice'])
-        uc_steps_ratings.append(vectors[i]['workers'][2]['annotations']['UC-step'] or vectors[i]['workers'][2]['annotations']['UC-DataPractice'])
         uc_steps_kappa += calc_kappa(uc_steps_ratings)
 
     return [uc_name_kappa/length, uc_goal_kappa/length, uc_user_kappa/length, uc_system_kappa/length, uc_steps_kappa/length];
