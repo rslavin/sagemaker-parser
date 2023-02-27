@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-
+import os
+import sys
 from scenario import Scenario
 from sys import argv
 import numpy as np
@@ -23,9 +24,13 @@ def parse_args():
     Parses scenarios from files given as command line arguments. Expects one string per file.
     :return: list of Scenarios
     """
+    dir_list = os.listdir(sys.argv[1])
+    files = [sys.argv[1] + file for file in dir_list]
     scenarios = list()
-    for arg in argv[1:]:
-        scenarios.append(parse_file(arg))
+    for file in files:
+        if file.endswith(".json"):
+            print(file)
+            scenarios.append(parse_file(file))
     return scenarios
 
 
@@ -72,28 +77,44 @@ def prep_kappa(vectors):
     uc_user_kappa = 0
     uc_system_kappa = 0
     uc_steps_kappa = 0
+    uc_externalEntity_kappa = 0
     length = len(vectors)
-
+    count = 0
     for i in range(length):
-        uc_name_ratings = [v['workers'][j]['annotations']['UC-Name'] for v in vectors for j in range(len(v['workers']))]
-        uc_goal_ratings = [v['workers'][j]['annotations']['UC-Goal'] for v in vectors for j in range(len(v['workers']))]
-        uc_user_ratings = [v['workers'][j]['annotations']['UC-User'] for v in vectors for j in range(len(v['workers']))]
-        uc_system_ratings = [v['workers'][j]['annotations']['UC-System'] for v in vectors for j in range(len(v['workers']))]
-        uc_steps_ratings = [v['workers'][j]['annotations']['UC-step'] or v['workers'][j]['annotations']['UC-DataPractice'] for v in vectors for j in range(len(v['workers']))]
 
-        uc_name_kappa += calc_kappa(uc_name_ratings)
-        uc_goal_kappa += calc_kappa(uc_goal_ratings)
-        uc_user_kappa += calc_kappa(uc_user_ratings)
-        uc_system_kappa += calc_kappa(uc_system_ratings)
-        uc_steps_kappa += calc_kappa(uc_steps_ratings)
+        if(len(vectors[i]['workers'])) == 3:
+            count += 1
+            uc_name_ratings = [vectors[i]['workers'][j]['annotations']['UC-Name'] for j in
+                               range(len(vectors[i]['workers']))]
+            uc_goal_ratings = [vectors[i]['workers'][j]['annotations']['UC-Goal'] for j in
+                               range(len(vectors[i]['workers']))]
+            uc_user_ratings = [vectors[i]['workers'][j]['annotations']['UC-User'] for j in
+                               range(len(vectors[i]['workers']))]
+            uc_system_ratings = [vectors[i]['workers'][j]['annotations']['UC-System'] for j in
+                                 range(len(vectors[i]['workers']))]
+            uc_steps_ratings = [
+                vectors[i]['workers'][j]['annotations']['UC-step'] or vectors[i]['workers'][j]['annotations']['UC-DataPractice']
+                for j in range(len(vectors[i]['workers']))]
 
-    return [uc_name_kappa/length, uc_goal_kappa/length, uc_user_kappa/length, uc_system_kappa/length, uc_steps_kappa/length];
+            uc_name_kappa += calc_kappa(uc_name_ratings)
+            uc_goal_kappa += calc_kappa(uc_goal_ratings)
+            uc_user_kappa += calc_kappa(uc_user_ratings)
+            uc_system_kappa += calc_kappa(uc_system_ratings)
+            uc_steps_kappa += calc_kappa(uc_steps_ratings)
+
+    diff = 50 - count
+    kappaCounts = [uc_name_kappa , uc_goal_kappa , uc_user_kappa , uc_system_kappa, uc_steps_kappa]
+    kappas = [(c + diff)/50 for c in kappaCounts]
+
+    return kappas;
 
 
 def example():
     scenarios = parse_args()
-    # print_scenarios(scenarios)
+    print(len(scenarios))
     vectors = get_vectors(scenarios)
+    print(len(vectors))
+    print(vectors[0])
     print(prep_kappa(vectors))
 
 

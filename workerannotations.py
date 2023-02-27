@@ -41,6 +41,7 @@ class WorkerAnnotations:
         self.labels['UC-User'] = [0] * len(scenario_content)
         self.labels['UC-step'] = [0] * len(scenario_content)
         self.labels['UC-DataPractice'] = [0] * len(scenario_content)
+        self.labels['UC-ExternalEntity'] = [0] * len(scenario_content)
 
         for entity in entities:
             # build self.entities for easy access to substrings
