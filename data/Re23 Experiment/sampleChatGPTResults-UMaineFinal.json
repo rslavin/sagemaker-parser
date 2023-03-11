@@ -1,0 +1,923 @@
+{"data":[ {"paragraphs":[
+    {
+        "context": "I don't really use this screen in particular, it does have my address and email on there so if I were to forget for some reason it's there to show. The app in general I use a lot because I do like to do all kinds of tasks for money and this app allows anyone to send me money through it and I can put this in my bank account right away. The app also allows me to keep a contact list like I would my phone and has a few other things one could do with their finances. This screen though doesn't have much use to me since there isn't much here. It does show my email though which is important to hide from anyone and it does show my phone number as well. Other than that it doesn't get too personal which I like. I can also put more emails and numbers and even addresses in there if I need to.",
+        "UC-Name": ["View Personal Information"],
+        "UC-Goal": ["To display personal information to the user in case they forget it."],
+        "UC-User": ["User"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": ["Bank"],
+        "UC-DataPractice": ["Collection of personal information", "Sharing of personal information"],
+        "UC-Step": [
+            "User views the personal information screen",
+            "The system displays the user's address and email",
+            "The user can use this information in case they forget it",
+            "User uses the app to complete various tasks for money",
+            "Other users can send money to the user through the app",
+            "The system allows the user to add and manage contacts",
+            "The system displays the user's email and phone number",
+            "User can hide their email from others",
+            "The user's personal information is not too detailed",
+            "The user can add more personal information if needed"
+            ]
+    },
+    {
+        "context": "I open the Candy Crush Saga app which is already has me logged in through Facebook.  I check my daily rewards and redeem them.  I can check how many lives I have left.  I can open my email to see if anyone has sent requests for more lives.  I always accept requests.  I will open the chests to see how much progress I have left to reach my goal of getting more rewards.  I'll spin my daily wheel for some in-game items.  Then I will click on the map which is on the bottom and look for my position.  I click on it and start choosing what colors to do.  I can also check where my friend's progresses are & where I stand in the leaderboard. I can make purchases on the app for more lives or in-game items to help me win the games.   ",
+        "UC-Name": ["Checking daily rewards and redeeming them", "Checking remaining lives", "Checking email for life requests", "Accepting life requests", "Opening chests to check progress towards goal", "Spinning daily wheel for in-game items", "Choosing colors on the map", "Checking friend progress and leaderboard position", "Making in-app purchases for lives or in-game items"],
+        "UC-Goal": ["To obtain rewards and progress further in the game"],
+        "UC-User": ["I"],
+        "UC-System": ["Candy Crush Saga app"],
+        "UC-ExternalEntity": ["Facebook"],
+        "UC-DataPractice": ["Collection and usage of user data by the app and Facebook"],
+        "UC-Step": [
+            "1. Open Candy Crush Saga app", 
+            "2. Check daily rewards and redeem them", 
+            "3. Check remaining lives", 
+            "4. Check email for life requests", 
+            "5. Accept life requests", 
+            "6. Open chests to check progress towards goal", 
+            "7. Spin daily wheel for in-game items", 
+            "8. Choose colors on the map", 
+            "9. Check friend progress and leaderboard position", 
+            "10. Make in-app purchases for lives or in-game items"]
+    },
+    {
+        "context": "I purchase products and will sometimes leave reviews for them on this page, so some of the items I have purchased are on here and what I thought about them along with my name. They can click on my profile and see other things that I have bought and things that I rate good or bad. I share some personal information on these reviews like my height and weight ETC because some products arent accurate with this and I want other people to know that someone with similar build can use the product or not. Like for example there's an ab machine that I only purchased because someone had a similar build to me said that it worked fine with them, taller people need different machines because they have longer bodies. So I just want people to know how I feel about the products and if I have similar situations to them.",
+        "UC-Name": ["Leave Reviews", "Share Personal Information"],
+        "UC-Goal": ["To provide feedback on purchased products", "To inform others with similar builds about the product suitability"],
+        "UC-User": ["I", "Someone with similar build"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": ["Other people who can see the reviews"],
+        "UC-DataPractice": ["Collection, usage, and sharing of personal information"],
+        "UC-Step": ["Purchase products", "Leave reviews", "Share personal information"]
+    },
+    {
+        "context": "I use this screen to view past grocery orders I've made and view/change my account settings. To get to this screen, I open the Instacart app on my phone. From the home page of the app, I clicked on the icon in the top left corner of the app page, and this screen comes up. From this page if I click \"Your Orders\" I can look at past orders so I can view my receipts. I can also re-add all the items from previous orders to my cart from that page. I can view my account settings and reset passwords. I can view my instacart+ subscription and cancel it from this page. I can also see what promos are available to me and how much I've saved on promos and discounts on my past orders. I can click \"Your Lists\" and make or alter my personal grocery lists for different stores.",
+        "UC-Name": ["View Past Orders and Account Settings"],
+        "UC-Goal": ["To allow the user to view past orders and modify account settings"],
+        "UC-User": ["User"],
+        "UC-System": ["Instacart App"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["Collection", "Usage", "Sharing"],
+        "UC-Step": [
+        "Open Instacart app on phone",
+        "Click on icon in top left corner",
+        "Select 'Your Orders' to view past orders and receipts",
+        "Add items from previous orders to cart",
+        "View account settings and reset passwords",
+        "View and cancel Instacart+ subscription",
+        "View available promos and discounts",
+        "Click on 'Your Lists' to create or modify personal grocery lists"
+        ]
+    },
+    {
+        "context": "When i am interested in seeing the health of my credit score i use credit karma and how i use it is by opening the app and clicking on the credit button on the bottom of the screen which gives me a snapshot of my credit score at the moment. I want to stay on top of my credit score and history in order to make sure i have no debt and am able to keep my credit at a good rating. I use the credit health section to see my payment history which i scroll down and am given a view of my past months payment history and or due balances, i also click the graph provided to see the consistency of my credit score either rising or staying the same. The screen and app itself uses my name, age, and financial history in order to accumulate data to provide me of my credit score and any errors that my bank or credit issuers may have.",
+        "UC-Name": ["Check credit score"],
+        "UC-Goal": ["To monitor and maintain a good credit score and history"],
+        "UC-User": ["I"],
+        "UC-System": ["Credit Karma app"],
+        "UC-ExternalEntity": ["Bank", "Credit issuers"],
+        "UC-DataPractice": ["Collection of personal information (name, age, financial history)", "Sharing of credit score and any errors with bank or credit issuers"],
+        "UC-Step": ["Open Credit Karma app", "Click on credit button", "View credit score snapshot", "Scroll down to see payment history and due balances", "Click on provided graph to see consistency of credit score"]
+    },
+    {
+        "context": "This screen allows a person to see their basic account info. The top line shows the person's username, which can be shared to play against a particular player. The email is necessary for an account, and it can help someone retain their account if they change devices or get logged out. It is the most sensitive data that the app asks for, because it must be verified. The password, similarly, allows a person to protect their account and use it across multiple devices. The membership plan can be upgraded from basic to premium in order to unlock extra features, such as more analysis and access to playing more bots. The screen also allows access to the Terms of Service and Privacy Policy, which states how information from the user will be handled. According to the policy, Chess.com uses email addresses for the following: App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, and Account management.",
+        "UC-Name": ["See Basic Account Info"],
+        "UC-Goal": ["Allow users to view their basic account information"],
+        "UC-User": ["Person"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["Collection", "Usage", "Sharing"],
+        "UC-Step": [
+            "The user opens the screen to see their account information",
+            "The user views their username",
+            "The user views their email address",
+            "The user views their password",
+            "The user views their membership plan",
+            "The user views the Terms of Service and Privacy Policy",
+            "The system uses email addresses for App functionality, Analytics, Developer communications, Advertising or marketing, Fraud prevention, security, and compliance, Personalization, and Account management."
+        ]
+    },
+    {
+        "context": "In order to provide digital safety service, Life 360 shares specific information about your profile, including email, address, and name with third parties that help with identity protection service. When joining a paid subscription, your automatically enrolled in the digital safety service. Data breach alerts allow you to find out if your email or passwords are being used on the dark web. With ID theft protection, you can get help anytime if your data is stolen and used and up to $1 million to cover this. Opting out of digital safety is easy. If feature is turned off, you will lose ability to use identity protection, restoration and credit monitoring, and data breach notifications. To use this feature, you can log into your account on the app. You must sign up or create a Life 360 account. There are sections at the bottom of the app screen for location, driving, safety, and membership options. On the home screen, tap on the safety section at the bottom. Toggle the free data breach alerts option to view information aout online activity or disable the feature.",
+        "UC-Name": ["Provide Digital Safety Service", "Joining Paid Subscription", "Data Breach Alerts", "ID Theft Protection", "Opting Out of Digital Safety", "Using Data Breach Alerts Feature"],
+        "UC-Goal": ["To provide digital safety service, offer data breach alerts and ID theft protection, and allow users to opt-out of digital safety service"],
+        "UC-User": ["Primary user is the person using the mobile app"],
+        "UC-System": ["Life 360 app"],
+        "UC-ExternalEntity": ["Third parties that help with identity protection service"],
+        "UC-DataPractice": ["Collection, usage, and sharing of specific information about user's profile (email, address, name), data breach alerts, ID theft protection, and user account information"],
+        "UC-Step": ["Sharing user profile information with third parties to provide identity protection service", 
+                    "Automatically enrolling users in the digital safety service when they join a paid subscription", 
+                    "Offering data breach alerts to notify users of any suspicious activity related to their email or passwords", 
+                    "Providing ID theft protection and up to $1 million coverage in case of data theft", 
+                    "Enabling users to easily opt-out of the digital safety service", 
+                    "Allowing users to use the data breach alerts feature by logging into their account on the app and toggling the option in the safety section"
+                ]
+    },
+    {
+        "context": "This screen shows me how much I have spent on shared expenses, and how much my dad has spent on shared expenses. It shows who was responsible for paying and who is responsible for repyament, so that I can get a summary of who ultimately owes whom how much. My goal is to track each expense, and who paid, so that at the end of the month, when I factor how much I owe my dad in rent, it also factors how much I have spent in additional expenses, and automatically comes out with the ultimate amount of who owes whom. This is much simpler than keeping it on paper, and much less confusing. Any time I have an expense, I just write who paid, and how much, and what the cost was, and then put in a proportion of how we split the cost, like 50/50. I start out by entering how much in rent I owe my dad, and then just add each expense as it comes up. I can also take a picture of the receipt for verification.",
+        "UC-Name": ["Track Shared Expenses"],
+        "UC-Goal": ["To track each expense and who paid, so that at the end of the month, it automatically comes out with the ultimate amount of who owes whom"],
+        "UC-User": ["Me"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": ["Dad"],
+        "UC-DataPractice": ["Collection of expense information", "Sharing of expense information"],
+        "UC-Step": [
+                    "Enter how much in rent I owe my dad",
+                    "Add each expense as it comes up",
+                    "Write who paid, how much, and what the cost was",
+                    "Put in a proportion of how we split the cost",
+                    "Take a picture of the receipt for verification"
+                ]
+    },
+    {
+        "context": "I use this screen to achieve my step goals. This app screen page allows me to keep track of how many steps I have taken each day. I set certain step goals on this page and it is fun to keep track of my steps when I am on this app. This screen helps me stay healthy and keep track of my health goals. I am easily able to use this app to help me with my exercise. When I go on this screen I usually just click on the Daily activity portion and look at my goals and see how close I am to my goals. The app automatically tracks my steps by connecting to my smartwatch. The app uses GPS to keep track of where I am at all times. This allows the app to get precise step counts and that helps me with my health goals. I can also add food I have eaten during the day which helps me count my calories for each day.",
+        "UC-Name": ["Track steps and set step goals"],
+        "UC-Goal": ["To help the user stay healthy and keep track of their health goals"],
+        "UC-User": ["I"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": ["Smartwatch", "GPS"],
+        "UC-DataPractice": ["Collection of step count data", "Usage of step count data", "Sharing of step count data", "Collection of food intake data", "Usage of food intake data", "Sharing of food intake data"],
+        "UC-Step": [
+                    "Open the app",
+                    "Click on the 'Daily activity' portion",
+                    "View the step goals and progress",
+                    "Track steps using the smartwatch and GPS",
+                    "Add food intake data to the app"
+                    ]
+    },
+    {
+        "context": "I use this screen in the applicate google translate in order to translate Japanese text into English text. I play a video game that requires me to constantly read Japanese text in order to perform optimally, but I do not know how to speak or read Japanese. Therefore, I downloaded the Google Translate App in order to be able to take pictures of the text I need translated, and then have Google Translate access those pictures and translate all of the text in the images for me. I also use it to translate any other random information that I may come across that happens to be in foreign languages. I will take a picture of the language that I need translated, and then I will have google translate access my images and I will select the image that contains the text that I need translated, and google translate will turn the foreign language into English.",
+        "UC-Name": ["Using Google Translate to Translate Japanese Text"],
+        "UC-Goal": ["To translate Japanese text into English text using the Google Translate App"],
+        "UC-User": ["I"],
+        "UC-System": ["Google Translate App"],
+        "UC-ExternalEntity": ["None"],
+        "UC-DataPractice": ["Collecting images of text to be translated, accessing images, and translating text from one language to another"],
+        "UC-Step": [
+                "Open Google Translate App",
+                "Take a picture of the text to be translated",
+                "Access images through Google Translate App",
+                "Select the image that contains the text to be translated",
+                "Translate the text from foreign language to English"
+                ]
+    },
+    {
+        "context": "This is the page before I take a picture with my camera to upload a receipt. I chose this one because the camera functionality would be harder to convey via screenshot. On this page, I can check all the items that are on my list to get cashback. Afterwards, I press the upload receipt button. This brings me to the camera function where I can snap a picture of my receipt. If I already have a picture, I can also go to my gallery and upload a receipt from there. If the app validates the store, date, and price total of the receipt, I can move on and validate the items the app automatically registered. I give my purchasing history data to the app in order to receive rebates on the items I purchase. I use this so I can get deals on the items I normally purchase or get good prices on items I may not get all that often.",
+        "UC-Name": ["Upload Receipt", "Check Items", "Validate Receipt", "Validate Items", "Give Purchasing History Data"],
+        "UC-Goal": ["To upload a receipt and receive rebates on purchased items"],
+        "UC-User": ["I"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": ["None"],
+        "UC-DataPractice": ["Collection of purchasing history data, Usage of purchasing history data, Sharing of purchasing history data"],
+        "UC-Step": [
+            "Open the page before taking a picture with the camera",
+            "Check all the items on the list to get cashback",
+            "Press the upload receipt button",
+            "Go to the camera function and snap a picture of the receipt or upload from gallery",
+            "Validate the store, date, and price total of the receipt",
+            "Validate the items the app automatically registered",
+            "Give purchasing history data to the app to receive rebates on items purchased"
+        ]
+    },
+    {
+        "context": "Everyday Morning I open the app for watching my body workout Activities. This app guided for all exercise step by step with timing and rounds and then That app guided for food activity for everyday. open diary I click on Add Food in the breakfast section. The app scan the meal or barcode to food items. Also, the app shows my most recent food items, meals, and recipes from the app history. I can choose an item from the app history or manually enter a new food item by clicking the Quick Add button. Next I select ADD FOOD under the Lunch heading. To enter food products, the app can scan the barcode or the meal. Additionally, the app displays my most recent meals, snacks, and recipes. By pressing the Quick Add option, I can manually add a new food item or select one item from the app's history. This is used by the app to support this screen.",
+        "UC-Name": [
+            "Watching Body Workout Activities",
+            "Guided Food Activity",
+            "Adding Food to Breakfast",
+            "Adding Food to Lunch"
+            ],
+            "UC-Goal": [
+            "To guide users in performing body workout activities",
+            "To guide users in food activities and provide a food diary",
+            "To add food to breakfast",
+            "To add food to lunch"
+            ],
+            "UC-User": [
+            "I"
+            ],
+            "UC-System": [
+            "The mobile app"
+            ],
+            "UC-ExternalEntity": [
+            "None"
+            ],
+            "UC-DataPractice": [
+            "Collecting food item data",
+            "Sharing food item history"
+            ],
+            "UC-Step": [
+                "Open the app for watching body workout activities",
+                "App guides for exercise step by step with timing and rounds",
+                "App guides for food activity for everyday",
+                "Click on Add Food in the breakfast section",
+                "App scans the meal or barcode to food items",
+                "App shows most recent food items, meals, and recipes from the app history",
+                "Choose an item from the app history or manually enter a new food item by clicking the Quick Add button",
+                "Select ADD FOOD under the Lunch heading",
+                "App can scan the barcode or the meal to enter food products",
+                "App displays most recent meals, snacks, and recipes",
+                "Manually add a new food item or select one item from the app's history by pressing the Quick Add option",
+                "The app uses this information to support this screen"
+            ]
+    },
+    {
+        "context": "There is an account button on the bottom of the main part of the app. Within the overall account section there is an account subsection that I tap on. I don't use this particular screen often but sometimes I need to update some of the data (for example, I am switching all of my account emails from gmail to proton mail.) Once on the screen it is easy to use just by tapping on the element that I want to check or change. Some of it is easy and just an overlay that pops up to be edited. However, other elements are a bit of a hassle considered that it should be automated. For example, I have the Wyze weight scale and the Wyze watch but still am required to manually enter my weight in the health data despite even within this same app if I go to the scale it automatically updates when I am on the scale.",
+        "UC-Name": ["Update account information"],
+        "UC-Goal": ["Allow the primary user to update their account information."],
+        "UC-User": ["I"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": ["Wyze weight scale", "Wyze watch"],
+        "UC-DataPractice": ["Collection", "Usage", "Sharing"],
+        "UC-Step": [
+            "Tap the account button on the bottom of the main part of the app",
+            "Tap the account subsection within the overall account section",
+            "Update the account data, such as switching email addresses from Gmail to ProtonMail",
+            "Tap on the element to be checked or changed",
+            "Manually enter weight data for the Wyze weight scale and Wyze watch"
+        ]
+    },
+    {
+        "context": "After spending some time on time app, I become very concerned on the amount of time I spend on the app at the moment, so I don't get too addicted to using the application. So I go into my settings and check the screen time spent on the application so far. If I feel I am getting close to my daily set limit, then I go set the limit to the exact time I want to be on the app for, so the application notifies me about reaching the limit.. My interaction with the screen is to help me track my time and keep me disciplined with my screen time goals, so I don't damage my eyes and I can also get to use my time for other productive tasks. It has helped me to achieve more sleeping hours and an increase time in my productivity. The Instagram's public information says the feature was created to send a notification after users have spent a fixed amount of time engrossed in its social media world daily. The idea is to keep digital addiction at bay and promote a healthy online experience.",
+        "UC-Name": ["Checking screen time usage", "Setting app usage limit"],
+        "UC-Goal": ["To monitor and limit app usage to avoid addiction and increase productivity"],
+        "UC-User": ["I"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": ["Instagram's public information"],
+        "UC-DataPractice": ["Collection and usage of screen time data"],
+        "UC-Step": [
+            "Open app settings",
+            "Check screen time usage",
+            "Set daily usage limit",
+            "Receive notification when reaching set limit"
+            ]
+    },
+    {
+        "context": "When I go to this part of the app I am comparing my fantasy team with my opponent's fantasy team for that week. This page will show our players side by side. I can see how our players are ranked. I can also see what their projected points for that week are. For example, I see that this week my quarterback Joe Burrow is ranked 4 and my opponent's quarterback Lamar Jackson is ranked 6. I also see that my quarterback \"should\" outscore my opponent's quarterback by 1.2 points. I can also click on each player listed and get a more in depth analysis of the player as well as their matchup and whether it is favorable or not. Since  my goal is to win this particular week, I can also see where my opponent is weak and try and figure out what moves they might try and make on the waiver wire. If I want to I can try and block those by picking up those players myself. So this page is quite helpful.",
+        "UC-Name": ["Comparing fantasy teams", "Viewing player rankings and projections"],
+        "UC-Goal": ["To allow the user to compare their fantasy team with their opponent's team and make informed decisions on which players to start"],
+        "UC-User": ["The primary user"],
+        "UC-System": ["The mobile app"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["Collection and usage of fantasy team data, player rankings, and projections"],
+        "UC-Step": [
+        "Go to the page for comparing fantasy teams",
+        "View players ranked and projected points for the week",
+        "Click on individual players to get more information on the player and their matchup",
+        "Identify weak areas in the opponent's team",
+        "Make informed decisions on which players to pick up from the waiver wire"
+        ]
+    },
+    {
+        "context": "I use this screen to monitor and look at my credit score. The screen allows me to view what debts and loans I have and how they contribute to my overall credit score. It also shows me my payment history and lets me know if there are any outstanding balance I should be alerted to. The screen also shows me a history of my credit score over a long period of time. I am able to see what's changed and what contributed to such changes. If I am unsure about something I can reach out to support for help. I can use this information to help me understand my credit score and how I can improve it. I can look at my credit score from 2 sources, TransUnion and Equifax so that it's more accurate than looking at just 1. I like that the screen breaks down the score for each month.",
+        "UC-Name": ["View Credit Score"],
+        "UC-Goal": ["To allow the user to monitor and understand their credit score"],
+        "UC-User": ["Primary User"],
+        "UC-System": ["Mobile App"],
+        "UC-ExternalEntity": ["Support"],
+        "UC-DataPractice": ["Collection", "Usage", "Sharing"],
+        "UC-Step": [
+        "User opens the screen",
+        "User views their credit score",
+        "User views their debts and loans",
+        "User views their payment history",
+        "User is alerted to any outstanding balances",
+        "User views their credit score history",
+        "User can reach out to support for help",
+        "User can view their credit score from TransUnion and Equifax",
+        "User can view the breakdown of their credit score for each month"
+        ]
+    },
+    {
+        "context": "This is where I set up the goals I have in mind for my weight loss. I can choose which plan that I want for my diet. There are multiple options, it is similar to WW with the different colored plans. I like the \"purple\" because it focuses on whole foods. I can add a secondary metric, and in this case, I choose calorie counting. I have my activity set as sedentary, because I do not have a very active job, so I just ass the exercise I do intentionally by hand. The carry over is where I can choose to alot the \"bites\" I haven't eaten to be added to my weekly, or to my exercise to be used later, you can carry over up to 4 bites. I can set my starting and my goal weights. I have currently lost 5 but it does not show that here, it shows on the weight loss page of the app",
+        "UC-Name": ["Setting weight loss goals", "Choosing a diet plan", "Adding secondary metric", "Setting activity level", "Managing carry over bites", "Setting starting and goal weights"],
+        "UC-Goal": ["To track weight loss progress and manage diet plan", "To provide multiple diet plan options and track secondary metrics"],
+        "UC-User": ["User"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["Collecting weight and goal information", "Collecting and tracking diet plan information", "Collecting and tracking secondary metric information"],
+        "UC-Step": ["Choose a diet plan", "Select a secondary metric", "Set activity level", "Manage carry over bites", "Set starting and goal weights"
+        ]
+    },
+    {
+        "context": "I use this screen to track and see what things I have purchased, how much I'm spending, and if I got payment that was owed to me. This screen helps me achieve these goals by allowing me to carefully track my spending habits and to make sure that I get paid. I interact with this screen to achieve my goals by seeing and adding up how much I spend. I do this to ensure that I do not accidentally go over my budget. I also use this screen to track if people paid my money requests. If their payment shows up in this screen, I can cross them off the list, if their payment does not show up on this screen, then I would follow up with another request. The app uses many different information to support this screen. It uses personal data such as my friends and business' names and images. This page also tracks my spending history and my location by showing how much I paid or got paid and for what reason I'm paying or receiving money.",
+        "UC-Name": ["Track and monitor purchases screen"],
+        "UC-Goal": ["To help the user track their spending and payments owed to them."],
+        "UC-User": ["The primary user is the person who is using the mobile app to track and monitor their spending and payments."],
+        "UC-System": ["The mobile app that the user is interacting with."],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["Collects and uses personal data such as friends' and businesses' names and images, tracks spending history and location."],
+        "UC-Step": [
+        "User interacts with the screen to track their spending and monitor payments owed to them",
+        "User adds up how much they spend to ensure they do not exceed their budget",
+        "User tracks payments received and follows up on payments that have not shown up on the screen",
+        "App uses personal data to support the functionality of the screen"
+        ]
+    },
+    {
+        "context": "The goals I want to achieve through this screen are obtaining all relevant agreements pertaining to my bank accounts, reading through the app's privacy policy, and learning the terms and conditions of certain account and app features. On this screen, I can interact with the policies and terms by clicking on each of them individually, which brings me to a more detailed screen with further information regarding each policy, terms, conditions, and account agreements. The information that is used by the app to support this screen are basically the types of accounts that I have under my name with Chime Bank, the types of features available to me, and overall, this page uses my financial information to present each category that could possibly be relevant to me. Basically, this page provides me with information about what I have agreed to by signing up for the types of accounts I have and features that I use.",
+        "UC-Name": ["View Account Agreements, Policies, and Terms"],
+        "UC-Goal": ["Obtain all relevant agreements pertaining to my bank accounts", "Read through the app's privacy policy", "Learn the terms and conditions of certain account and app features"],
+        "UC-User": ["I"],
+        "UC-System": ["Mobile App"],
+        "UC-ExternalEntity": ["Chime Bank"],
+        "UC-DataPractice": ["Collection of financial information", "Usage of financial information", "Sharing of financial information"],
+        "UC-Step": ["1. Open the screen displaying the policies, terms, and agreements", "2. Click on each policy, term, and agreement individually to view detailed information", "3. Review the information presented"
+        ]
+
+    },
+    {
+        "context": "I like to use this style of page on the Action network app because it is very detailed and it gives you great information that you can use for your advantage, it is super good! I look to achieve greatness with this because it will give me a better understanding of how sports operate and how the outcomes are resulted in data. I love the interactions on this page where you can see what other bettors are betting on and their reasoning behind their actions, it is so fun to copy someone's bet and lose together! The information on this screen is public for all people to see if you are a user and decide to post any information, sometimes you will take bad beats and the information is nay say! Action network uses this screen to record information based on peoples winnings and leaderboards, it is so expiring to take in data and inspire to be top of the leaderboards!",
+        "UC-Name": ["Using the Detailed Page Style on Action Network App"],
+        "UC-Goal": ["To gain a better understanding of how sports operate and how outcomes are resulted in data, and to achieve greatness by using the detailed page style."],
+        "UC-User": ["I", "other bettors"],
+        "UC-System": ["Action Network App"],
+        "UC-ExternalEntity": ["None mentioned"],
+        "UC-DataPractice": ["Collecting, sharing and displaying public information about bets, winnings and leaderboards on the app."],
+        "UC-Step": [
+        "Launch the Action Network App",
+        "Navigate to the Detailed Page Style",
+        "View the detailed and informative information on the page",
+        "Interact with other bettors and view their bets and reasoning",
+        "Post information about bets and winnings for public display",
+        "View information about winnings and leaderboards on the app"
+        ]
+
+    },
+    {
+        "context": "With this screen, I am performing the goal of searching through potential restaurants that are nearby. The screen shows photos uploaded by others which shows the general quality of each restaurant. The quality of the restaurant is important in order to have a worthwhile experience overall. The information used by the app to support this screen includes user location data and the specific search query. Presumably, results that are given first are more nearby than results that reside lower in the results list. Each search result gives the specified location with reviews of each location. One can easily determine the overall quality of the specific location easily and at a glance with this configuration. One can also order directly from each restaurant from this page. Added amenities are also given immediately on this page. Additionally, a specific tag giving the overall category of the restaurant is given on this page as well.",
+        "UC-Name": ["Searching for Nearby Restaurants"],
+        "UC-Goal": ["To find potential restaurants nearby"],
+        "UC-User": ["User"],
+        "UC-System": ["Mobile App"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["Collection of user location data", "Usage of user location data", "Sharing of user location data"],
+        "UC-Step": ["1. User enters search query",
+        "2. App collects user location data",
+        "3. App retrieves and displays search results with photos, location, reviews, and amenities",
+        "4. User can order directly from the page"]
+    },
+    {
+        "context": "I am trying to sign up for this calorie counting app.  I am in the registration process and it is asking me for my personal information.  I would want to maintain my current healthy weight and track my calories through out the day.  I do not want to lose or gain weight through the use of this app.  My interactions with this app would be to monitor it as I go through out the day and track how many calories I am consuming each day.  The app is asking for my age, it also asks for my country of residence.  I am nut sure why it is asking for that and my zipcode as well.  I feel somewhat uncomfortable providing my zip code because I don't know why the app needs that or what it will do with that information.  I might use this app or might not. ",
+        "UC-Name": ["Sign up for Calorie Counting App"],
+        "UC-Goal": ["To create an account and provide personal information to the calorie counting app."],
+        "UC-User": ["The user who is trying to sign up for the calorie counting app."],
+        "UC-System": ["The Calorie Counting App"],
+        "UC-ExternalEntity": ["None"],
+        "UC-DataPractice": ["The collection and storage of personal information such as age, country of residence, and zip code."],
+        "UC-Step": ["1. User clicks on the registration button on the app", 
+            "2. User enters personal information such as age, country of residence, and zip code.",
+            "3. User specifies their goal for using the app.",
+            "4. User completes the registration process."
+        ]
+    },
+    {
+        "context": "This is my settings screen, so I use it to modify downloads and I can change sound quality for the audio tracks. I can also modify how much storage the app uses on my phone, which is helpful. I can monitor certain account information such as my e-mail and my name, but I can't do much through the app as it pertains to account information. I can view what current plan that I am using on the service as a way to verify that I am actually on the plan that I want to use, but it can't be changed from this screen or in the app itself. I mostly just use this screen to modify my listening experience and improve it whenever I want. If I had privacy concerns, I could switch to offline only mode so the app isn't connected to the internet. Overall, I think the app only collects information that is crucial to the function of the app.",
+        "UC-Name": [
+            "Modify Downloads",
+            "Change Sound Quality",
+            "Modify Storage",
+            "Monitor Account Information",
+            "View Current Plan"
+          ],
+          "UC-Goal": [
+            "To modify the settings and improve the listening experience",
+            "To verify the current plan being used"
+          ],
+          "UC-User": [
+            "I"
+          ],
+          "UC-System": [
+            "Mobile App"
+          ],
+          "UC-ExternalEntity": [
+            "Internet"
+          ],
+          "UC-DataPractice": [
+            "Collection",
+            "Usage",
+            "Sharing",
+            "Crucial to Function of the App"
+          ],
+          "UC-Step": [
+            "Open the Settings screen",
+            "Modify Downloads",
+            "Change Sound Quality",
+            "Modify Storage",
+            "Monitor Account Information",
+            "View Current Plan",
+            "Switch to Offline only mode"
+          ]
+
+    },
+    {
+        "context": "I use this screen to determine what I allow Uber Eats to do with my data. If I don't want them to share my data with third parties, I can block them from doing so. If I opt in, I would probably be able to get regular promotions offered to me. I have the option of allowing both data sharing and data collection. The data also allows the app to provide personalized ads to me. The data involved would be things such as my Uber Eats ratings, payments data, ratings data, trips data, and additional data. I can use this screen to protect my privacy. I use the screen to determine if I'm okay with third parties accessing my data. It is up to me whether or not I get ads that are personalized just for me. I can also choose to request deletion of the data that's already been collected by Uber.",
+        "UC-Name": [
+            "Manage Data Sharing Preferences"
+            ],
+            "UC-Goal": [
+            "To enable users to manage their data sharing preferences and protect their privacy"
+            ],
+            "UC-User": [
+            "Primary User: Mobile App User",
+            "Scenario: Managing data sharing preferences"
+            ],
+            "UC-System": [
+            "Uber Eats App"
+            ],
+            "UC-ExternalEntity": [
+            "Third Parties"
+            ],
+            "UC-DataPractice": [
+            "Data collection",
+            "Data usage",
+            "Data sharing"
+            ],
+            "UC-Step": [
+            "1. Open the Manage Data Sharing Preferences screen",
+            "2. Choose whether to allow data sharing or block it",
+            "3. Choose whether to opt-in for promotions or not",
+            "4. Allow or disallow data collection",
+            "5. Receive personalized ads based on collected data",
+            "6. Protect privacy by managing data sharing preferences",
+            "7. Choose whether to receive personalized ads or not",
+            "8. Request data deletion"
+            ]
+    },
+    {
+        "context": "I use this screen to see what data from my iphone can be used by Publix to collect and link to me personally. I don't like my information tracked by anybody except when I use my GPS for traveling. On this page, I can see all the kinds of data that can be used by Publix. They can see what I've purchased, my contact info, my financial info (because I use my credit card and bank debit card there), what I've recently searched for throughout the internet and how often I use the internet, as well as some other types of info I'm not sure about like \"identifiers\" and \"diagnostics.\" After seeing all this data, now I need to decide what or \"if\" I can do something about it or whether or not to use this app in the first place. I worry about my bank account and credit card being used without my permission and my overall identity being stolen. I have an identity ID app attached to my bank account which was supplied by my bank to help.",
+        "UC-Name": ["View Available Data"],
+        "UC-Goal": ["To inform the user about what data can be collected by Publix and allow them to make a decision about using the app."],
+        "UC-User": ["User"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": ["Publix"],
+        "UC-DataPractice": ["Data collection", "Data usage", "Data sharing"],
+        "UC-Step": [
+        "User accesses the screen",
+        "User views the types of data that can be collected by Publix",
+        "User considers whether to use the app",
+        "User may use an identity ID app to help protect their identity and bank account"
+        ]
+    },
+    {
+        "context": "I use this screen to manage the permissions that i give to the Reddit app. I always make it a point to not give all the default permissions that the app is asking for. For instance, in this case, i have not given the permission to access my camera, since there is no reason for the reddit app to access my camera. The same applies to my location and my microphone. Microphone is useful at times in the reddit app, however, i never send voice messages in reddit, and hence this particular permission is for sure redundant for me. I did allow the permission to access my storage. I post pics, be it in posts or in messages, in reddit. To enable that, i have to give the app the permission to access my storage. Even if i am not fully comfortable with it, i choose so for the sake of convenience.",
+        "UC-Name": ["Manage Permissions"],
+        "UC-Goal": ["To manage and select permissions for the Reddit app"],
+        "UC-User": ["I"],
+        "UC-System": ["Reddit app"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["Collection and usage of user's permission data"],
+        "UC-Step": [
+        "Open permissions screen",
+        "Review default permissions",
+        "Select/deselect individual permissions",
+        "Allow permission to access storage"
+        ]
+    },
+    {
+        "context": "This screen is the breakdown of an order I had placed recently on Instacart. This page opens and is accessible after an order is completed to show me what items had been replaced or refunded, because they were not available at the time. On the bottom of this screen it shows the amounts charged for the items and the payments used to pay for the order as well as the store number, address, and total breakdown of the payments. I can click each item on this page and mark them as damaged if they are damaged or missing to get a refund if needed. sometimes the items cost more or less depending on replacements, and I can also request to chat on this page if I need to let an Instacart worker know something went wrong, or if the order didn't show up. I can also request to speak to the worker who is shopping from this page, as long as the order is still being shopped, if I need to add something.",
+        "UC-Name": ["View Order Breakdown"],
+        "UC-Goal": ["To show the breakdown of an order that has been completed, including replaced or refunded items, amounts charged, payments used, store information, and the ability to mark items as damaged or missing, request a chat, or speak to the worker who is shopping."],
+        "UC-User": ["I"],
+        "UC-System": ["Instacart"],
+        "UC-ExternalEntity": ["None"],
+        "UC-DataPractice": ["Collection and usage of order information, payments, and user feedback."],
+        "UC-Step": [
+        "User completes an order.",
+        "User clicks on the View Order Breakdown page.",
+        "The system displays the breakdown of the order, including replaced or refunded items, amounts charged, payments used, store information, and the ability to mark items as damaged or missing, request a chat, or speak to the worker who is shopping.",
+        "User can click on each item on the page and mark them as damaged or missing.",
+        "User can request a chat on the page to let an Instacart worker know something went wrong or if the order didn't show up.",
+        "User can request to speak to the worker who is shopping as long as the order is still being shopped if they need to add something."
+        ]
+    },
+    {
+        "context": "This is the only page that this app has. On this page I login with a username and the url to the website where there is a map. I then hit the Tracking \"on\" button and it will begin to display my location on a map on the url that is entered on this page. In order for this app to work you must also have a WordPress website with the \"GPS Plotter\" plugin installed.     This app is pretty straightforward. It is used by many business and individuals to track Android phones. It is used all over the world and is a great way to track for example your employees if you have a delivery business. You can also allow customers to track your employees by simply giving them the url to your map.     Full disclosure I am the developer of this app and of the WordPress plugin that it works in conjunction with. There is a free version on the WordPress plugin repository and the app is free on Google Playstore. We also sell a premium version on our website that costs $50 and has some added features.",
+        "UC-Name": ["Tracking Location on Map"],
+        "UC-Goal": ["To track Android phones and display their location on a map on a specified URL"],
+        "UC-User": ["I"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": ["WordPress website with GPS Plotter plugin installed"],
+        "UC-DataPractice": ["Collection and sharing of location data"],
+        "UC-Step": ["1. Login with a username and URL to the website where there is a map", 
+        "2. Click on the Tracking 'on' button", 
+        "3. Display location on a map on the URL entered on the page"
+        ]
+    },
+    {
+        "context": "Using the app is incredibly simple.  Since it recalls the last used settings, you simply open it and it displays what you were previously looking at.  This is really convenient as it requires little interaction.  You can, though, go into the sub-menu and change your display settings.  Since this is configured for an eight camera system, you can select which channels you wish to view.  It defaults to display four, and will always recall the previous four you selected to display. It also has  an option to review the records, which requires quite a bit more interaction and because of that, is rarely used in the mobile app.  This is basically just for quick viewing and works really well.  It makes it easy to keep an eye on whatever you want to monitor.  This is why we strongly recommend this to anyone that is looking for this kind of a setup.",
+        "UC-Name": ["Viewing Camera Settings", "Changing Display Settings", "Reviewing Records"],
+        "UC-Goal": ["To allow users to easily view and monitor the camera feed on their mobile device."],
+        "UC-User": ["The mobile app user"],
+        "UC-System": ["The mobile app"],
+        "UC-ExternalEntity": ["None mentioned"],
+        "UC-DataPractice": ["Collection of user interaction data, such as camera selection and display settings"],
+        "UC-Step": [
+        "Open the app, which automatically displays the previously viewed settings",
+        "Optionally, go into the sub-menu to change display settings and select which camera channels to view",
+        "Select to review records, though this option is rarely used",
+        "Monitor camera feed"
+        ]
+    },
+    {
+        "context": "I use this screen every day to monitor how hard I work.  Some days I work harder than others and I use this page to keep myself very motivated.  I compare the information from previous sessions to see if I am on target or if I need to work longer and harder.  I also use this information to make sure I am getting my heart rate up as high as I can.  Some days are better than others.  All in all I find this app to be very helpful in my health journey.  I also use the sleep section of this app and I also monitor my resting heart rate.  I try to get good sleep and keep my resting heart rate down.  The more I exercise the lower I can keep my heart rate.  I compare the information from previous days to see my progress.",
+        "UC-Name": [
+            "Monitor Work Progress",
+            "Monitor Health Progress"
+            ],
+            "UC-Goal": [
+            "To monitor work progress",
+            "To monitor health progress"
+            ],
+            "UC-User": [
+            "I"
+            ],
+            "UC-System": [
+            "Mobile app"
+            ],
+            "UC-ExternalEntity": [],
+            "UC-DataPractice": [
+            "Collection of workout data",
+            "Usage of workout data for progress comparison",
+            "Sharing of workout data between different sessions",
+            "Collection of sleep data",
+            "Usage of sleep data for progress comparison",
+            "Sharing of sleep data between different sessions",
+            "Collection of resting heart rate data",
+            "Usage of resting heart rate data for progress comparison",
+            "Sharing of resting heart rate data between different sessions"
+            ],
+            "UC-Step": [
+            "Use the screen to monitor work progress",
+            "Use the information to stay motivated",
+            "Compare information from previous sessions to determine progress",
+            "Monitor heart rate",
+            "Use the sleep section of the app",
+            "Monitor resting heart rate",
+            "Compare information from previous days to determine progress"
+            ]    
+    },
+    {
+        "context": "I use the Health App All Health Data screen in order to get an overview of my physical efforts for the day, week, or month. I use this to help supplement and be on track with my fitness goals which include walking a certain amount of steps in a day and the amount of calories i am burning while making sure my heart rate is optimal. I go on the Health App and then i click the summary page thereafter i click on Show All Health Data to reach this screen. I am usually clicking through ll the subcategories like Heart Rate and Steps to view my data. The screen uses my health data that is provided by the smart watch i wear throughout the day and also the built in counter of my smartphone to account for my physical movements in that day. The data collected from these devices are compiled in numbers wehich are shown on this screen.",
+        "UC-Name": ["View Health Data Summary"],
+        "UC-Goal": ["To provide the user with an overview of their physical efforts for a specific day, week, or month, and to help them track their fitness goals."],
+        "UC-User": ["I"],
+        "UC-System": ["Health App"],
+        "UC-ExternalEntity": ["Smartwatch", "Smartphone"],
+        "UC-DataPractice": ["Collection of health data from smartwatch and smartphone", "Compiling and displaying the data on the Health App"],
+        "UC-Step": [
+        "Open Health App",
+        "Click on Summary page",
+        "Click on Show All Health Data",
+        "Navigate through subcategories (e.g., Heart Rate, Steps)",
+        "Display compiled data on screen"
+        ]
+    },
+    {
+        "context": "To check my messages that I receive on Reddit, I open the Reddit app. Then I click on the bell icon on the lower right corner. Then I click on the Messages tab. Whenever I join a new subreddit, I receive a welcome message from the subreddit. This helps me keep track of all of the recent subreddits I have joined. If I just use the standard subreddit page, it is all in alphabetical order and does not tell me the recent ones I joined. The app uses my recent activity to send me these messages. I also use this section to reply to other users. I would not want my messages with other users to be shared outside of the app even though my username is anonymous and I don't have my real picture as my avatar. I subscribe to a local city subreddit so things like that can be used to identify me.",
+        "UC-Name": [
+            "Check messages on Reddit"
+            ],
+            "UC-Goal": [
+            "To allow users to check their messages on Reddit",
+            "To keep track of the recent subreddits a user has joined",
+            "To allow users to reply to other users' messages"
+            ],
+            "UC-User": [
+            "I"
+            ],
+            "UC-System": [
+            "Reddit app"
+            ],
+            "UC-ExternalEntity": [
+            "subreddit"
+            ],
+            "UC-DataPractice": [
+            "Collection of user's recent activity",
+            "Usage of user's recent activity to send welcome messages",
+            "Sharing of messages with other users within the app",
+            "Protection of user's messages from being shared outside of the app",
+            "Potential identification of user through their subscriptions"
+            ],
+            "UC-Step": [
+            "Open the Reddit app",
+            "Click on the bell icon on the lower right corner",
+            "Click on the Messages tab",
+            "Receive a welcome message from the subreddit whenever a new subreddit is joined",
+            "Use the Messages section to reply to other users"
+            ]
+    },
+    {
+        "context": "I use Google Maps to map trips to unfamiliar places, check street addresses and intersections, and to check the status of traffic in my vicinity. I got to this screen on the app by toggling to the \"Go\" tab at the bottom of the screen. Shown on the screen is the blue circle indicating my present location (not redacted) and the direction in which my phone is facing. At the bottom of the screen, Google Maps has suggested some locations based on my past activity. One of those destinations (redacted) is a place I traveled to using Google Maps yesterday. The other is a destination for which I did a Google search a few days ago. Were I to be planning a trip currently, I would check the status of traffic (looks terrible on I-93 South). To plan a trip on Maps, I would press the blue button with the arrow in it for directions to my destination.",
+        "UC-Name": ["Using Google Maps for Mapping Trips and Checking Traffic"],
+        "UC-Goal": ["To map trips to unfamiliar places, check street addresses and intersections, and to check the status of traffic in my vicinity"],
+        "UC-User": ["I"],
+        "UC-System": ["Google Maps"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["Collection of location data, past activity, and search history"],
+        "UC-Step": [
+        "Toggled to the 'Go' tab at the bottom of the screen",
+        "Viewed the blue circle indicating current location and direction",
+        "Viewed suggested locations based on past activity",
+        "Pressed the blue button with the arrow for directions to a destination"
+        ]
+    },
+    {
+        "context": "This is a screenshot of my purchases. The App uses my purchases to make reomendations on what to show me next. it also stores my saved movies so that I can referenece them at a later time. I think that this will allow an algorythem to get to know me better so that they can help to guide me into more purchaeses. I think the over all goal is to sell me more. The goal on this screen is just to show me the movies that I bought. the information is given to the app and that will allow that app to compare other people who have the same movies and recomend movies that I might also like to see. I think that this system is not too bad or harmful. I think that the goal is just to keep me using the app and to make purchases in the future.",
+        "UC-Name": ["View Purchased Movies"],
+        "UC-Goal": ["To display a list of movies that the user has purchased"],
+        "UC-User": ["The primary user who purchased the movies and is using the app"],
+        "UC-System": ["The mobile app"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["Collection of purchase data, usage of purchase data for recommendations, and storage of saved movies"],
+        "UC-Step": [
+        "User opens the app",
+        "User navigates to the 'Purchased Movies' screen",
+        "System retrieves user's purchase history",
+        "System displays a list of purchased movies",
+        "User can reference saved movies",
+        "System uses purchase history to make recommendations",
+        "System compares user's purchased movies with other users and recommends movies",
+        "System's goal is to keep the user using the app and to make more purchases in the future"
+        ]
+    },
+    {
+        "context": "This is where I see how much I have earned for using my credit cards at various gas stations or grocery stores or restaurants.  I also receive money for my referral purchases.  I have not used it for restaurants but have used it for gas stations and grocery stores.  I have referred my son and husband to the app as well and when they joined using my referral link then their purchases also report under my account as well as theirs.  It is a bit of a pyramid scheme.  I believe the purpose is to track spending behaviors and to target us for future opportunities for promotions.  A few of my neighbors also use this app and it seems to be expanding with the number of retailers that give cashback as well as the types of locations that are available, I just have to remember to use it.",
+        "UC-Name": ["Check Earnings for Credit Card Purchases"],
+        "UC-Goal": ["To allow users to view the earnings from credit card purchases and referral purchases"],
+        "UC-User": ["Primary user", "Son", "Husband"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": ["Retailers"],
+        "UC-DataPractice": ["Data collection", "Data usage", "Data sharing"],
+        "UC-Step": [
+        "Open the mobile app",
+        "Navigate to the earnings section",
+        "View earnings from credit card purchases",
+        "View earnings from referral purchases",
+        "Refer others to the app using a referral link",
+        "Track earnings of referred users",
+        "Remember to use the app for eligible purchases"
+        ]
+    },
+    {
+        "context": "I like to use this screen to gauge how much I am betting and what my previous history of betting looked like! It is very informative because it shows your mistakes and errors from the past, so you try to learn from your mistakes! It also will show you your winners so you know what studied plays were good and how you can pursue winning again in the future! I want to achieve the ability to learn from my mistakes from this image/ page that I have submitted! The way I use this screen, is that I navigate through my bet history and learn the ins and outs of my mistakes and winners. I think Fanduel can use this page on everyone's user data and see which sports are being bet the most, this will show them what markets they should open/supply to the public so we can prosper in the long run?",
+        "UC-Name": ["Use Screen to Track Betting History"],
+        "UC-Goal": ["To help users learn from their past mistakes and successes in betting."],
+        "UC-User": ["User"],
+        "UC-System": ["Screen"],
+        "UC-ExternalEntity": ["Fanduel"],
+        "UC-DataPractice": ["Collection of user's betting history and analysis of trends"],
+        "UC-Step": ["1. Navigate to the screen to view betting history",
+        "2. Analyze mistakes and successes from past betting",
+        "3. Learn from mistakes and successes to improve future betting decisions"]
+    },
+    {
+        "context": "This screen is used to store my demographic information.  I don't typically use this screen much, except to update the information when it is out of date.  This screen includes all my relevant identifying information like my name, gender, social security number, marital status, and date of birth along with other information.  While this screen isn't specifically used in my goals, it offers me security to pursue other financial goals within the app.  It is basically my 'thumbprint' for my bank.  Without this information, a person would be unable to access my account where I keep the majority of my money.  I use the app, and therefore this screen, every single day.  This is my primary bank account that I use to pay bills and for daily purchases.  It is through this app that I am also able to invest money and move money around between my checking and savings account.  I even have a retirement account here.  All of my financial goals, such as saving for a rainy day and retirement, go through this app.",
+        "UC-Name": ["Store demographic information"],
+        "UC-Goal": ["To provide security for the user's financial goals within the app."],
+        "UC-User": ["The primary user, who uses the mobile app to access their bank account, update their demographic information, pay bills, make daily purchases, and manage their investments and retirement account."],
+        "UC-System": ["The mobile app."],
+        "UC-ExternalEntity": ["None mentioned."],
+        "UC-DataPractice": ["Collection, usage, and sharing of the user's demographic information, financial information, and personal identifying information such as their name, gender, social security number, marital status, and date of birth."],
+        "UC-Step": [
+        "Access the app",
+        "Navigate to the screen for storing demographic information",
+        "Enter or update relevant demographic information such as name, gender, social security number, marital status, and date of birth",
+        "Save the information"
+        ]
+    },
+    {
+        "context": "My main goal is to choose which of my contacts I would like to befriend on the app. Having friends on Duolingo can be very motivating and inspiring to continue using the app daily because your friends will congratulate you/give you kudos when you fulfill goals and reach certain milestones. Also, you can see how well they're doing to compete with them if you so choose. In addition, you can do friend goals with them (such as cumulatively doing a certain amount of lessons between you both in a set period of time). I interact with this screen by either pressing the plus button next to whoever's name I want to add as a friend, or I can choose to \"follow all\" by pressing that option at the top. The information that is used to support this screen is my list of personal contacts from my phone, filtered by the app as a list of people who also use the app.",
+        "UC-Name": ["Choosing contacts to befriend on Duolingo"],
+        "UC-Goal": ["To allow users to choose and add friends on the app to stay motivated and inspired by congratulating each other on achieving milestones and compete with each other."],
+        "UC-User": ["The primary user of this use case is the person who is using the mobile app."],
+        "UC-System": ["The primary system involved in this use case is the Duolingo app."],
+        "UC-ExternalEntity": ["The phone contacts app."],
+        "UC-DataPractice": ["The collection of the user's list of personal contacts from their phone, filtering the list to show people who also use the app."],
+        "UC-Step": [
+        "The user interacts with the screen by pressing the plus button next to the name of the person they want to add as a friend.",
+        "The user can also choose to follow all by pressing that option at the top.",
+        "The app uses the user's list of personal contacts from their phone, filtered by the app to show people who also use the app, to support this screen."
+        ]
+    },
+    {
+        "context": "On this screen I can see the books that I've borrowed from the library. I can see how much longer I have the books for. I can click on \"holds\" at the top middle of the screen and see what books I have on hold and if any are ready to be borrowed yet. I can renew books I've already borrowed. When I scroll down the screen, I can see the history of my past borrowed books, all the way to the beginning of my library membership. I can click the magnifying glass icon at the bottom left of the scree to search for new books. I can click on the building icon next to the magnifying glass to go to the home screen for my particular library branch. If I click the middle icon on the screen, I can go to my settings, where I can add library cards or change my reading maturity preferences. The clock icon on the bottom right takes me to a screen that shows all my past borrows and holds over time. If I click the \"Actions\" button on the top right, I can pause or delete my viewing history, or synchronize my bookshelf with my other devices. I use this home screen to see what books I have available and download them for reading and listening.",
+        "UC-Name": ["View borrowed books", "View holds", "Renew books", "View past borrow history", "Search for books", "Go to library branch home screen", "Access settings", "Manage viewing history and bookshelf"],
+        "UC-Goal": ["To provide the user with information on their borrowed books, holds, and past borrow history, and enable them to renew books, search for new books, access settings, manage viewing history and bookshelf, and navigate to the home screen for their particular library branch."],
+        "UC-User": ["User"],
+        "UC-System": ["Library app"],
+        "UC-ExternalEntity": ["Library"],
+        "UC-DataPractice": ["Collection of information on borrowed books, holds, past borrow history, and viewing history, and potentially sharing this information across devices."],
+        "UC-Step": [
+        "View borrowed books",
+        "View holds",
+        "Renew books",
+        "View past borrow history",
+        "Search for books",
+        "Go to library branch home screen",
+        "Access settings",
+        "Manage viewing history and bookshelf"
+        ]
+    },
+    {
+        "context": "This is the profile page of the app. It has a profile picture of me on it. This is used when using the social pages of the app. This allows me to be identifiable by other uses. It also helps track how I look while losing weight. This page has my email on it and is used to contact me or for me to be able to log-in to the app itself if I get signed out. Gender lets the app know if I'm male or female and gives me a weight-loss goal based on the gender. This page collects my height and this helps with the weight-loss goal as well. The profile page is very basic and allows me to change my \"about me\" section on it, if I so choose. I can log out from here as well. There is an advanced tab that has other statistics on it, such as weight and how active or sedentary I am on average. The advanced page helps with giving me a daily goal to attain. ",
+        "UC-Name": ["View Profile Page"],
+        "UC-Goal": ["Allow the user to view and edit their profile information"],
+        "UC-User": ["The primary user"],
+        "UC-System": ["The mobile app"],
+        "UC-ExternalEntity": ["None mentioned"],
+        "UC-DataPractice": ["Collecting user profile information for identification and personalization purposes", "Collecting user activity and biometric data for goal setting and progress tracking"],
+        "UC-Step": [
+        "User opens the app and navigates to the profile page",
+        "User views their profile picture and basic profile information",
+        "User can edit their 'about me' section",
+        "User can view more advanced statistics on the 'advanced' tab",
+        "User can log out from the profile page"
+        ]
+    },
+    {
+        "context": "I use this screen in hopes to save money in the store. I search through the coupons on this screen and add the ones I think I might use. I click the clip coupon button and it adds it to my \"wallet\" which lets me use the coupons during my next shopping trip. My goal with this is to save money by being able to use these coupons to save a few dollars when buying the items I need. This page uses my location to make sure my area is allowing these coupons. By allowing it to use my location it can verify the coupons can be used in that area and also adds other coupons that are exclusive to my area. By clipping the coupons I am able to save money which is what I set out to do. This page can be used at any time and is always adding more coupons.",
+        "UC-Name": ["Saving Money with Coupons"],
+        "UC-Goal": ["To save money by using coupons during shopping trips"],
+        "UC-User": ["I"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": ["None mentioned"],
+        "UC-DataPractice": ["Collection and usage of location information for coupon verification and exclusive coupon offerings"],
+        "UC-Step": [
+        "Search through available coupons",
+        "Add selected coupons to 'wallet'",
+        "Click 'clip coupon' button",
+        "Verify location for coupon usage",
+        "Save money by using clipped coupons during shopping trips"
+        ]
+    },
+    {
+        "context": "The main way I use this screen is to check my progress over time. I like looking at the graphs as they provide a nice easy visual to look at to see how my workouts and eating have been going. In particular in the screenshot you can see my weight over time and this graph easily shows me what kind of trend I am on. Usually I check this screen once a week but sometimes more if I am feeling like I need to check on my progress. Besides weight it also shows my calories consumed and this is another metric that helps me make sure my progress is going in the right direction. The weight chart is just one of the tools I can use but I think its very important to my overall goals of losing weight and gaining muscle. The main interactions I generally have with this is looking at my charts and figuring out how I am doing.",
+        "UC-Name": ["Check progress over time"],
+        "UC-Goal": ["To monitor progress towards fitness goals"],
+        "UC-User": ["I"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["Collection, usage, and sharing of fitness data"],
+        "UC-Step": [
+        "Open the progress screen in the mobile app",
+        "View the weight graph to check progress",
+        "Check the calories consumed metric",
+        "Analyze the trend shown in the weight graph",
+        "Use the weight graph as a tool to achieve fitness goals"
+        ]
+    },
+    {
+        "context": "The main goals for this screen are to browse around to find items for sale by other facebook users. I always select local before looking at any categories because I want to buy from someone in my area rather than having an item shipping. This allows me to see it in person. After I choose local I can set the radius for how far from me I am willing to travel to purchase the item. After I pick local I scroll through the main page and see if anything catches my eye. After scrolling for a bit I will either search for something specific, or I will go to the categories and browse in those sub-sections. Unfortunately the main information used is my least favorite to share, my location. I have a precise location off but it does know my general area based on zip code. It also uses Name and profile if I choose to contact a seller. I am certain it also tracks the data of what I search for here and what items I view for their analytics and advertising.",
+        "UC-Name": ["Browsing Items for Sale", "Choosing Local Items", "Setting Radius for Local Items", "Scrolling Through Main Page", "Searching for Specific Items", "Browsing Categories"],
+        "UC-Goal": ["To find items for sale by other Facebook users", "To buy from someone in the user's area", "To view items in person"],
+        "UC-User": ["Facebook user", "Someone in the user's area"],
+        "UC-System": ["Facebook app"],
+        "UC-ExternalEntity": ["Seller"],
+        "UC-DataPractice": ["Collection of location information", "Collection of name and profile information", "Tracking of searched items and viewed items"],
+        "UC-Step": ["1. Select 'Local' option", 
+        "2. Set radius for local items", 
+        "3. Scroll through main page", 
+        "4. Search for specific items", 
+        "5. Browse categories"]
+
+    },
+    {
+        "context": "Memrise is a learning app that uses spaced repetition to allow users to memorize information in a way similar to using flashcards. I use Memrise to review vocabulary and pronunciation in language learning as presented in various courses. Specifically, I have been using Memrise to learn Mandarin Chinese in my free time. To review the material in courses, I open the app and then tap the upper left hand corner to get to the courses screen (what is shown in the uploaded screenshot). I can review the progress I've made in current (selected) and previous courses. It is possible to undertake multiple courses at once. Daily goals, as in the number of items to review, is indicated by the small rocket icon above the green progress bar. Items that should be reviewed to ensure they are in long term memory are indicated by the watering can icon. The icon of a hand planting a seed indicates new items that can be learned out of a total of all items in the course. After I've made my selection by tapping on the course I wish to continue, the app goes back to the home screen and then I can tap on the large yellow \"Continue learning\" button to proceed with the course. Memrise then proceeds with presenting 25 new items to learn followed by a review.",
+        "UC-Name": [
+            "Use Memrise to review vocabulary and pronunciation in language learning"
+          ],
+          "UC-Goal": [
+            "Describe the use case's goal"
+          ],
+          "UC-User": [
+            "I"
+          ],
+          "UC-System": [
+            "Memrise"
+          ],
+          "UC-ExternalEntity": [],
+          "UC-DataPractice": [
+            "Collecting user progress data"
+          ],
+          "UC-Step": [
+            "Open the app",
+            "Tap on the upper left-hand corner to get to the courses screen",
+            "Review progress made in current and previous courses",
+            "Select the desired course",
+            "Tap on the large yellow 'Continue learning' button to proceed with the course",
+            "Memrise presents 25 new items to learn followed by a review"
+          ]
+
+    },
+    {
+        "context": "I go to this screen to check on any devices that are on my network, so that I can 1) monitor the network and 2) add a device found on the network to the app itself, given I know its password. It allows me to see anything on my network, so I can make sure there are no intrusions. As for interaction, I can click on any device and view its name, password, forwarded ports, and access some of the app's settings for it. I can also get a device number, so that I can look it up and see the exact  device that it is. The information used for this is my network data: it accesses my internet connection, my phones ip address, and my routers ip address. This also means it collects my approximate location, and any other ips that happen to be on my network at any given time. ",
+        "UC-Name": ["Check Network Devices"],
+        "UC-Goal": ["Monitor network", "Add device to app", "Ensure no intrusions"],
+        "UC-User": ["I"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": ["None"],
+        "UC-DataPractice": ["Collect network data", "Access internet connection", "Access phone's IP address", "Access router's IP address", "Collect approximate location"],
+        "UC-Step": [
+        "Open the app",
+        "Navigate to the network devices screen",
+        "View the list of connected devices",
+        "Click on a device to view its information",
+        "Add a device to the app if necessary"
+        ]
+    },
+    {
+        "context": "I use this screen to view the overall trends in the market. On this screen I have the price chart of an asset. I have an alert to receive a notification once the asset or if the asset becomes the specific price. With this screen, I generally try to become knowledgable about the financial health of a financial market asset and also try to determine or predict what the asset will be valued at in the future. To support this screen, the app provides the use to create alerts and also gives real time updates on the price fluctuations in real time. The app also presumably stores information in order to retrieve data quickly. One's preference are on the screen determining potential country of use and time is stored when interacting with the app. In terms of this screen, I enjoy being able to see the full range of an asset.",
+        "UC-Name": ["View market trends"],
+        "UC-Goal": ["To provide an overview of the market trends for a financial asset"],
+        "UC-User": ["User"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["Data collection", "Data usage", "Data sharing"],
+        "UC-Step": ["1. User opens the screen",
+        "2. User views the price chart of the asset",
+        "3. User sets up an alert for a specific price of the asset",
+        "4. User tries to determine the financial health and value prediction of the asset",
+        "5. App provides real-time updates and alerts to the user",
+        "6. App stores user preferences and time data",
+        "7. User enjoys seeing the full range of the asset"]
+    },
+    {
+        "context": "I use Evidation to win points that turn into money when I hit a certain mark. To achieve this I log into the app and check on my points, and complete health surveys and polls. In order for them to do this they need to collect my location (zip code), phone number for updates, and email to let me know of my progress. When I open this page I can access this information and change it if I needed to. I can also extract this data on this page. So to go there I just have to scroll on this page, go to \"export data\" and I will be able to send it to my email. I can also customize the notifications that I get from this app, both Mobile and email notifications. I can also click on my points and see a graphic on how I have gotten the points so far. ",
+        "UC-Name": ["Win points through Evidation app"],
+        "UC-Goal": ["To earn money by winning points through completing health surveys and polls on the Evidation app"],
+        "UC-User": ["I"],
+        "UC-System": ["Evidation app"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": [
+        "Collection of location data (zip code)",
+        "Collection of phone number for updates",
+        "Collection of email for progress updates",
+        "Data extraction on the page",
+        "Customization of notifications (mobile and email)"
+        ],
+        "UC-Step": [
+        "Logging into the app",
+        "Checking on my points",
+        "Completing health surveys and polls",
+        "Accessing and changing my information",
+        "Exporting data to my email",
+        "Customizing notifications",
+        "Viewing a graphic of my earned points"
+        ]
+    },
+    {
+        "context": "So this screen is very useful for whenever lets say you end p getting a new debit card or maybe someone is using your app and wants to place an order or something. They can easily add or remove a card and it takes no time at all as everything is right there for you. ALongside that you can add gift cards choose your default payment options etc. One thing that i like about it is that besides actually having to type in all of the info that is required everything else is just one press away. If you tap the three dots you can go to edit or remove so if you find that the card did not work maybe you input something wrong and need to edit it or you have hit the limit or need to remove an older card you can easily do that also. It is a well designed screen and it is easy to find to as it is at the bottom and right in front of you.",
+        "UC-Name": ["Add or Remove Payment Card"],
+        "UC-Goal": ["To allow the primary user to add or remove a payment card on the mobile app"],
+        "UC-User": ["Primary user", "Someone using the mobile app"],
+        "UC-System": ["Mobile app"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["Collection of payment card information", "Usage and sharing of payment card information"],
+        "UC-Step": ["1. Access the payment card screen", 
+                    "2. Tap the 'Add' or 'Remove' button", 
+                    "3. Follow the prompts to add or remove a payment card", 
+                    "4. Optionally, access the payment card screen again to edit or remove a payment card by tapping the three dots."
+        ]
+
+    },
+    {
+        "context": "This is the timeline screen for Google maps. Using this you can see where you spend chunks of your time how much time you spent in a given month on each of the separate things etc. If i feel like i had to travel a lot in a month i can go ahead and check just how much time i spent  in my vehicle at any given time. This is useful since i am on the go a lot when working so it helps me get a good sense of how much time i spent driving. Alongside this you can see if you  are spending to much time on luxuries such as eating out shopping etc. You also have access to the trips tab so you can see anytime you left your general area and all the stops you were at there which is fantastic for cataloguing or reminiscing" ,
+        "UC-Name": ["View Timeline Screen"],
+        "UC-Goal": ["Allow users to view their activity on Google Maps"],
+        "UC-User": ["Primary user of the mobile app"],
+        "UC-System": ["Google Maps"],
+        "UC-ExternalEntity": ["None mentioned"],
+        "UC-DataPractice": ["Collection and usage of user's location data and activity information"],
+        "UC-Step": [
+        "Open the Google Maps app",
+        "Navigate to the Timeline screen",
+        "View the user's activity and time spent on different activities in a given month",
+        "Check the amount of time spent in a vehicle",
+        "Review spending on luxuries such as eating out and shopping",
+        "Access the Trips tab to view locations and stops outside of the general area"
+        ]
+    },
+    {
+        "context": "The goals I want to achieve from this screen is creating a comfortable experience for myself on the app. So first I look into what each does and what they mean. What specific information they gather and then I decide which I am comfortable with allowing. I prefer to keep my events and plans and my locations blocked. I also don't want to know about nearby devices or have mine showing up. I end up not allowing those permission. I want them to ask for my permission each time for my camera and my microphone in case I want to make a tik tok or try a filter. I allow for my files and media because if I want to download a video, then they need access for me to be able to do so. I also allow my contact because I don't really see a big deal about letting them.",
+        "UC-Name": [],
+        "UC-Goal": ["Describe the use case's goal"],
+        "UC-User": ["myself", "I"],
+        "UC-System": ["the app"],
+        "UC-ExternalEntity": [],
+        "UC-DataPractice": ["collection", "usage", "sharing", "information types"],
+        "UC-Step": ["look into what each does and what they mean", 
+                    "decide which I am comfortable with allowing", 
+                    "keep my events and plans and my locations blocked", 
+                    "not want to know about nearby devices or have mine showing up", 
+                    "not allowing those permission", 
+                    "want them to ask for my permission each time for my camera and my microphone", 
+                    "allow for my files and media", 
+                    "allow my contact"
+        ]
+    }
+]
+}
+]
+}
+  
