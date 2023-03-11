@@ -2,9 +2,9 @@
 import os
 import sys
 from scenario import Scenario
-from sys import argv
 import numpy as np
 from statsmodels.stats import inter_rater as irr
+
 
 def parse_file(file_path):
     """
@@ -19,13 +19,14 @@ def parse_file(file_path):
         print(f'ERROR: File not found: {file_path}')
     return None
 
+
 def parse_args():
     """
     Parses scenarios from files given as command line arguments. Expects one string per file.
     :return: list of Scenarios
     """
     dir_list = os.listdir(sys.argv[1])
-    files = [sys.argv[1] + file for file in dir_list]
+    files = [os.path.join(sys.argv[1], file) for file in dir_list]
     scenarios = list()
     for file in files:
         if file.endswith(".json"):
@@ -68,8 +69,9 @@ def calc_kappa(table):
     :return: fleiss kappa, inter-rater agreement between three workers
     https://stackoverflow.com/questions/56481245/inter-rater-reliability-calculation-for-multi-raters-data
     """
-    tableT = np.array(table).transpose()
-    return irr.fleiss_kappa(irr.aggregate_raters(tableT)[0], method='fleiss')
+    table_t = np.array(table).transpose()
+    return irr.fleiss_kappa(irr.aggregate_raters(table_t)[0], method='fleiss')
+
 
 def prep_kappa(vectors):
     uc_name_kappa = 0
@@ -82,7 +84,7 @@ def prep_kappa(vectors):
     count = 0
     for i in range(length):
 
-        if(len(vectors[i]['workers'])) == 3:
+        if (len(vectors[i]['workers'])) == 3:
             count += 1
             uc_name_ratings = [vectors[i]['workers'][j]['annotations']['UC-Name'] for j in
                                range(len(vectors[i]['workers']))]
@@ -93,7 +95,8 @@ def prep_kappa(vectors):
             uc_system_ratings = [vectors[i]['workers'][j]['annotations']['UC-System'] for j in
                                  range(len(vectors[i]['workers']))]
             uc_steps_ratings = [
-                vectors[i]['workers'][j]['annotations']['UC-step'] or vectors[i]['workers'][j]['annotations']['UC-DataPractice']
+                vectors[i]['workers'][j]['annotations']['UC-step'] or vectors[i]['workers'][j]['annotations'][
+                    'UC-DataPractice']
                 for j in range(len(vectors[i]['workers']))]
 
             uc_name_kappa += calc_kappa(uc_name_ratings)
@@ -103,10 +106,10 @@ def prep_kappa(vectors):
             uc_steps_kappa += calc_kappa(uc_steps_ratings)
 
     diff = 50 - count
-    kappaCounts = [uc_name_kappa , uc_goal_kappa , uc_user_kappa , uc_system_kappa, uc_steps_kappa]
-    kappas = [(c + diff)/50 for c in kappaCounts]
+    kappa_counts = [uc_name_kappa, uc_goal_kappa, uc_user_kappa, uc_system_kappa, uc_steps_kappa]
+    kappas = [(c + diff) / 50 for c in kappa_counts]
 
-    return kappas;
+    return kappas
 
 
 def example():
@@ -119,4 +122,4 @@ def example():
 
 
 if __name__ == '__main__':
-    example()
+    print_scenarios(parse_args())

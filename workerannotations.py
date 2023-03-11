@@ -4,7 +4,8 @@ import json
 class WorkerAnnotations:
     def __init__(self, scenario_content, worker_json):
         """
-        Creates a WorkerAnnotation including a list of entities and a dictionary of label->vector pairs holding the character-based labels for the scenario.
+        Creates a WorkerAnnotation including a list of entities and a dictionary of label->vector pairs holding the
+        character-based labels for the scenario.
         :param scenario_content: Scenario string
         :param worker_json: json object of worker annotations for the given scenario string
         """
